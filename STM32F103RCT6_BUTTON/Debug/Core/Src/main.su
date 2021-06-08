@@ -1,0 +1,4 @@
+main.c:4:6:SystemClockInit	4	static
+main.c:15:6:GPIO_Init	4	static
+main.c:29:6:delay	16	static
+main.c:35:5:main	16	static

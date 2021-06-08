@@ -1,0 +1,8 @@
+main.c:116:6:SytemClock_Init	4	static
+main.c:127:6:GPIO_Init	4	static
+main.c:165:6:LCD_Clear	8	static
+main.c:188:6:LCD_Cmd	8	static
+main.c:211:6:LCD_Chr_Cp	16	static
+main.c:264:6:LCD_Out_Cp	24	static
+main.c:274:6:delay	16	static
+main.c:279:5:main	8	static

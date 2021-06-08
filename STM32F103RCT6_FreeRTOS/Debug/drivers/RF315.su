@@ -1,0 +1,21 @@
+RF315.cpp:10:1:RF315::RF315()	16	static
+RF315.cpp:15:1:RF315::~RF315()	16	static
+RF315.cpp:15:1:virtual RF315::~RF315()	16	static
+RF315.cpp:30:1:RF315::RF315(uint16_t, uint8_t, uint8_t, uint8_t, bool)	24	static
+RF315.cpp:44:6:virtual bool RF315::init()	16	static
+RF315.cpp:56:6:void RF315::setModeIdle()	16	static
+RF315.cpp:68:6:void RF315::setModeRx()	16	static
+RF315.cpp:79:6:void RF315::setModeTx()	16	static
+RF315.cpp:93:6:virtual bool RF315::available()	16	static
+RF315.cpp:105:6:virtual bool RF315::recv(uint8_t*, uint8_t*)	32	static
+RF315.cpp:122:6:virtual bool RF315::send(const uint8_t*, uint8_t)	40	static
+RF315.cpp:184:6:bool RF315::readRx()	24	static
+RF315.cpp:190:6:void RF315::writeTx(bool)	16	static
+RF315.cpp:196:6:void RF315::writePtt(bool)	16	static
+RF315.cpp:209:9:virtual uint8_t RF315::maxMessageLength()	16	static
+RF315.cpp:214:6:bool RF315::waitPacketSent()	16	static
+RF315.cpp:220:6:void interrupt()	8	static
+RF315.cpp:243:6:void RF315::validateRxBuf()	24	static
+RF315.cpp:268:10:uint16_t RF315::RHcrc_ccitt_update(uint16_t, uint8_t)	16	static
+RF315.cpp:276:6:void RF315::reg_digital_write(void (*)(bool))	16	static
+RF315.cpp:282:6:void RF315::reg_digital_read(bool (*)())	16	static

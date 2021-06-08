@@ -1,0 +1,4 @@
+LCD.c:2:6:LCD_Init	8	static
+LCD.c:14:6:LCD_Write	16	static
+LCD.c:99:6:LCD_Puts	16	static
+LCD.c:118:6:LCD_Clear	8	static
